@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Rockwell;
+	font-size: 18px;
+}
+
+body {
+	background: #343440;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: #11111f;
+	text-align: left;
+	color: #ff642b;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;;
+	font-size: 24px;
+	color: #11111f;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Times New Roman', Times, serif;;
+	font-size: 22px;
+	color: #12111f;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Times New Roman', Times, serif;;
+	color: #343440;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+/* Rodapé */
+footer div {
+	margin-top: 20px;
+	background: #12111f;
+	height: 6rem;
+	color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 33,333%
+}
+
+footer div p {
+	position: relative;
+	top: 25%;
+}
+footer div ul, li {
+	position: relative;
+	top: 0%;
+	font-size: 12px
+}
+
+/* Nav */
+nav {
+	background: #696773;
+	font-size: 18px;
+	font-family: Rockwell;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	border-right: 3px solid #d4e4ef;
+	border-left: 3px solid #d4e4ef;
+	display: inline-flex;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+nav ul li a:hover {
+	background-color: #383640;
+	transition: .5s
+}
+
+/* Página inicial */
+
+.cabeçalho {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.foto_e_nome {
+	width: 1050px;
+	color: #010155;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	padding-top: 10px;
+	background: #d3d3d6;
+}
+
+.foto {
+	width: 200px;
+	border-color: #e76536;
+}
+
+.foto img {
+	margin-bottom: 20px;
+	border-radius: 15px;
+	border: solid;
+	border-color: #13055c;
+}
+
+.foto img:hover {
+	width: 150%;
+	transition: 5s;
+}
+
+.dados ul li {
+	margin-left: 10px;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+
+.dados p {
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.dados h2 {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	color:#ff642b
+}

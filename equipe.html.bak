@@ -1,0 +1,124 @@
+<! DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gigabot</title>
+	<meta name="description" content="Esta é a página principal do site da loja">
+	<meta name="keywords" content="header, footer, favicon, barra de navegação, alinhamento dos elementos/box model">
+	<meta name="author" content="Gerardo Mikael, Luan Rodrigues, Luis Felipe Aleluia, Pedro Martins">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+
+<body>
+	<section>
+		<header>
+			<picture>
+				<img src="img/Logo.png" height="200px" width="auto" alt="logo">
+			</picture>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Produtos</a></li>
+				<li><a href="login.html">Faça login na sua conta</a></li>
+				<li><a href="mais_vendidos.html">Mais vendidos</a></li>
+				<li><a href="mapa das lojas.html">Lojas pelo Brasil</a></li>
+				<li><a href="equipe.html">Quem somos</a></li>
+				<li><a href="contato.html">Entre em contato</a></li>
+			</ul>
+		</nav>
+	</section>
+	
+	<section>
+		<div class="row">
+			<div class="column"> <!-- Luís -->
+				<h2>Luís Felipe Aleluia</h2>
+				<hr>
+				<picture class="fotos">
+					<a href="html_luis.html"><img src="img/team/foto_luis.jpg" height="auto" width="100%" alt="Luís Felipe"></a>
+				</picture>
+				<p>
+					Diretor de Marketing
+				</p>
+			</div>
+			
+			<div class="column"> <!-- Mikael -->
+				<h2>Gerardo Mikael</h2>
+				<hr>
+				<picture class="fotos">
+					<a href="#"><img src="img/team/foto_mikael.jpeg" height="auto" width="100%" alt="Gerardo Mikael"></a>
+				</picture>
+				<p>
+					Desenvolvedor de Robôs
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column"> <!-- Luan -->
+				<h2>Luan Rodrigues</h2>
+				<hr>
+				<picture class="fotos">
+					<a href="html_luan.html"><img src="img/team/foto_luan.jpeg" height="auto" width="100%" alt="Luan Rodrigues"></a>
+				</picture>
+				<p>
+					Designer de Robôs
+				</p>
+			</div>
+			
+			<div class="column"> <!-- Pedro -->
+				<h2>Pedro Martins</h2>
+				<hr>
+				<picture class="fotos">
+					<a href="html_pedro.html"><img src="img/team/foto_pedro.jpeg" height="auto" width="100%" alt="Pedro Martins"></a>
+				</picture>
+				<p>
+					Engenheiro Mecatrônico
+				</p>
+			</div>
+		</div>
+		
+		<div class="conteiner-table">
+			<table>
+				<tr>
+					<th>Membro</th>
+					<th>Luís</th>
+					<th>Mikael</th>
+					<th>Luan</th>
+					<th>Pedro</th>
+				</tr>
+				<tr>
+					<th>Função</th>
+					<td>Diretor de Marketing</td>
+					<td>Desenvolvedor de Robôs</td>
+					<td>Designer de Robôs</td>
+					<td>Engenheiro Mecatrônico</td>
+				</tr>
+				<tr>
+					<th>Currículo Vitae</th>
+					<td><a href="html_luis.html">Link</a></td>
+					<td><a href="#">Link</a></td>
+					<td><a href="html_luan.html">Link</a></td>
+					<td><a href="#">Link</a></td>
+				</tr>
+			</table>
+		</div>
+	</section>
+</body>
+
+<footer>
+	<div>
+		<img src="img/Logo.png" height="60px" width="auto" alt="logo">
+		<p>Empresa especializada na comercialização de robôs e artigos tecnológicos de última geração!</p>
+		<ul>
+			Contatos:
+			<li>Facebook: facebook.com/gigabot.oficial</li>
+			<li>Whatsapp: 21 4002-8922</li>
+			<li>Instagram: @gigabot.oficial</li>
+			<li>Tel: 21 4002-8922</li>
+		</ul>
+	</div>
+</footer>
+
+</html>

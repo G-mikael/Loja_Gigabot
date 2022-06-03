@@ -1,0 +1,88 @@
+<! DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gigabot</title>
+	<meta name="description" content="Esta é a página principal do site da loja">
+	<meta name="keywords" content="header, footer, favicon, barra de navegação, alinhamento dos elementos/box model">
+	<meta name="author" content="Gerardo Michael, Luan Rodrigues, Luis Felipe Aleluia, Pedro Martins">
+	<link rel="stylesheet" href="estilo_pedro.css">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+
+<body>
+	<section> <!-- Seção 1 -->
+		<header>
+			<picture>
+				<img src="img/Logo.png" height="200px" width="auto" alt="logo">
+			</picture>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Produtos</a></li>
+				<li><a href="login.html">Faça login na sua conta</a></li>
+				<li><a href="mais_vendidos.html">Mais vendidos</a></li>
+				<li><a href="mapa das lojas.html">Lojas pelo Brasil</a></li>
+				<li><a href="equipe.html">Quem somos</a></li>
+				<li><a href="contato.html">Entre em contato</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section>
+		<div class="cabeçalho">
+			<div class="foto_e_nome">
+				<h1>Pedro Thomaz Conzatti Martins - 221708007</h1>
+				<hr>
+				<div class="foto">
+					<picture>
+						<img src="img/team/foto_pedro.jpeg" height="auto" width="100%" alt="Pedro Martins">
+					</picture>
+				</div>
+				<div class="dados">
+					<hr>
+					<h2>Formação acadêmica</h2>
+					<p>
+						Bacon ipsum dolor amet turkey tri-tip tenderloin sausage pork belly meatloaf, andouille cupim pastrami filet mignon ground round corned beef. Pork shank chicken swine bacon. Short loin meatball fatback frankfurter pig burgdoggen.
+					</p>
+					<hr>
+					<h2>Áreas de atuação</h2>
+					<ul>
+						<li>Ciências Exatas</li>
+						<li>Ciência de Dados e Inteligência Artificial</li>
+						<li>Ciência da Computação e Informática</li>
+						<li>Robótica Aplicada</li>
+						<li>Mecatrônica</li>
+					</ul>
+					<hr>
+					<h2>Produções</h2>
+					<ul>
+						<li>Pork chop sausage short ribs, landjaeger boudin pork loin, 2015.</li>
+						<li>Ribeye kevin meatball shankle kielbasa, 2016.</li>
+						<li>Strip steak turducken jerky, 2017.</li>
+						<li>Bacon t-bone shank short ribs, 2018.</li>
+						<li>Venison pork chop strip steak, 2019.</li>
+						<li>Chuck ball tip chicken ham, 2020.</li>
+						<li>Ham hock kielbasa swine biltong meatloaf chuck venison turducken, 2021.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+<footer>
+	<div>
+		<img src="img/Logo.png" height="60px" width="auto" alt="logo">
+		<p>Empresa especializada na comercialização de robôs e artigos tecnológicos de última geração!</p>
+		<ul>
+			Contatos:
+			<li>Facebook: facebook.com/gigabot.oficial</li>
+			<li>Whatsapp: 21 4002-8922</li>
+			<li>Instagram: @gigabot.oficial</li>
+			<li>Tel: 21 4002-8922</li>
+		</ul>
+	</div>
+</footer>
+
+</html>

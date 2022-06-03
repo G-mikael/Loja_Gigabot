@@ -1,0 +1,318 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Rockwell;
+	font-size: 18px;
+}
+
+body {
+	background: #343440;
+	/*color: #ff642b; laranja*/
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: #11111f;
+	text-align: left;
+	color: #ff642b;
+}
+
+h2 {
+	font-family: Bahnschrift;
+	font-size: 22px;
+	color: #ff642b;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: Bahnschrift;
+	color: #343440;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+/* Rodapé */
+
+footer div {
+	margin-top: 20px;
+	background: #12111f;
+	height: 6rem;
+	color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 33,333%
+}
+
+footer div p {
+	position: relative;
+	top: 25%;
+}
+footer div ul, li {
+	position: relative;
+	top: 0%;
+	font-size: 12px
+}
+
+
+/* Nav */
+
+nav {
+	background: #696773;
+	font-size: 18px;
+	font-family: Rockwell;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	border-right: 3px solid #d4e4ef;
+	border-left: 3px solid #d4e4ef;
+	display: inline-flex;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+nav ul li a:hover {
+	background-color: #383640;
+	transition: .5s
+}
+
+/* Página inicial */
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.column {
+	width: 400px;
+	color: #343440;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	padding-top: 10px;
+	background: white;
+}
+
+.column p {
+	text-align: justify;
+}
+
+.column input, textarea {
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 2px solid #696773;
+}
+
+.column input[type="submit"] {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	width: 50%;
+	height: 40px;
+	line-height: 0px;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: #e76536;
+	margin-bottom: 0%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column input[type="submit"]:hover { /*Animação para quando o mouse passar pelo botão*/
+	background-color: #ba532d;
+	font-size: 21px;
+	transition: .2s;
+}
+
+.price {
+	vertical-align: bottom;
+}
+
+/* Formulário */
+
+input, textarea {
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 2px solid #696773;
+}
+
+input[type="submit"] {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	width: 50%;
+	height: 40px;
+	line-height: 0px;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: #e76536;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type="submit"]:hover { /*Animação para quando o mouse passar pelo botão*/
+	background-color: #ba532d;
+	font-size: 21px;
+	transition: .2s;
+}
+
+.conteiner-form {
+	background-color: #ffffff;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.conteiner-form h3 {
+	text-align: center;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+
+label {
+	color: #343440;
+}
+
+/* Login */
+
+.sugestao-registro {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.sugestao-registro p {
+	text-align: center;
+	color: #343440;
+}
+
+/* Cadastro */
+
+.sugestao-login {
+	text-align: center;
+}
+
+.sugestao-login p {
+	text-align: center;
+	color: #343440;
+}
+
+/* Quem somos */
+
+.fotos a img {
+	border-radius: 10px;
+	display: block;
+	border: solid;
+	border-color: #3d3c48;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}
+
+.conteiner-table table {
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.conteiner-table tr:nth-child(odd) {
+	background-color: #dddddd;
+}
+
+.conteiner-table td, th {
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* Contato */
+
+.secao-contato {
+	padding-bottom: 30px;
+}
+
+.secao-contato textarea {
+	display: block;
+	width: 100%;
+	height: 200px;
+	resize: vertical;
+}
+
+/* Lojas pelo Brasil */
+
+.mapa-das-lojas {
+	color: #343440;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	padding-top: 10px;
+	background: white;
+}
+
+.mapa-das-lojas img {
+	border-radius: 20px;
+	display: block;
+	border: solid;
+	border-color: #e76536;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}

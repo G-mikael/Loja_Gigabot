@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+    text-align: center;
+   color:black;
+  
+}
+
+
+body {
+	background: #343440;
+   
+}
+
+header {
+	display: block;
+	justify-content: space-evenly;
+	background: #11111f;
+	text-align: center;
+	color: white;
+}
+
+h1 {
+    text-align: center;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 24px;
+	color:white
+    
+;
+	margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Times New Roman', Times, serif;
+	color: #343440;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+hr {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Rodapé */
+
+.footer_final {
+	margin-top: 40px;
+	background: #12111f;
+	height: 6rem;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 33,333%
+}
+
+.footer_final p {
+	position: relative;
+	top: 0%;
+	color: white;
+}
+.footer_final ul, li {
+	position: relative;
+	top: 0%;
+	font-size: 12px;
+	color: white;
+}
+
+/* Nav */
+nav {
+	background: #696773;
+	font-size: 18px;
+	font-family: Rockwell;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	border-right: 3px solid #d4e4ef;
+	border-left: 3px solid #d4e4ef;
+	display: inline-flex;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+nav ul li a:hover {
+	background-color: #383640;
+	transition: .5s
+}
+
+/* Página inicial */
+
+.cabeçalho {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.foto_e_nome {
+	width: 1050px;
+	color: #343440;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	padding-top: 10px;
+	background: #e76536;
+}
+
+.foto {
+	width: 200px;
+	border-color: #e76536;
+	border-radius: 5px;
+}
+
+.foto img {
+	margin-bottom: 10px;
+}
+
+.dados ul li {
+	margin-left: 10px;
+	font-size: 18px;
+}
