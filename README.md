@@ -5,7 +5,7 @@ Link do Pages:
 https://g-mikael.github.io/Loja_Gigabot/
 
 Colaboração:
-Gerardo Mikael
-Pedro Thomas
-Luis Felipe
+Gerardo Mikael,
+Pedro Thomas,
+Luis Felipe e
 Luan rodrigues
